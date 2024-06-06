@@ -185,6 +185,11 @@ main {
 
 .catalog__cards {
     margin-top: 16px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 16px;
 }
 
 .card {
