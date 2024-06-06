@@ -153,7 +153,25 @@ button.icon {
 
 main {
     min-height: 500px;
+    padding: 0 80px;
 }
+
+.search__block {
+    margin-top: 32px;
+
+    border-bottom: 1px solid gray;
+    padding: 8px 0 16px 0;
+    
+    display: flex;
+    justify-content: flex-start;
+    gap:8px;
+}
+
+.search__block > input {
+    width: 80%;
+}
+
+
 
 footer {
     height: 72px;
@@ -162,7 +180,7 @@ footer {
     color: white;
 }
 
-main, footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
