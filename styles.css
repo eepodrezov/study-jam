@@ -188,9 +188,37 @@ main {
 }
 
 .card {
-    width: 308px;
-    height: 366px;
-    border: 1px solid black;
+
+}
+
+.card__content {
+    padding-top: 16px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card__content__title {
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card__content__subtitle {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.card__content__delivery_time {
+    color: rgb(29, 29, 29);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 footer {
