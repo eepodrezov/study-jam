@@ -192,10 +192,6 @@ main {
     grid-row-gap: 16px;
 }
 
-.card {
-
-}
-
 .card__content {
     padding-top: 16px;
     padding-bottom: 20px;
@@ -227,14 +223,28 @@ main {
 }
 
 footer {
-    height: 72px;
+    min-height: 72px;
+    padding: 60px 80px;
 
     background: rgb(38, 38, 38);
     color: white;
 }
 
-footer {
+
+footer > .link__block {
+    margin-top: 40px;
+     
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+    padding: 32px 0 55px 0;
+
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    gap: 97px;
+}
+
+.link__block ul {
+    columns: 2;
+    gap: 150px;
 }
