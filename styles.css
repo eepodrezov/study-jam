@@ -3,6 +3,7 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
+    font-family: Roboto;
 }
 
 *,
@@ -88,6 +89,7 @@ legend {
 	display: block;
 }
 
+
 header {
     height: 72px;
     padding: 0 80px;
@@ -116,7 +118,6 @@ header {
 
 .search > span {
     color: rgb(98, 98, 98);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 300;
     line-height: 19px;
@@ -153,7 +154,7 @@ button.icon {
 
 main {
     min-height: 500px;
-    padding: 0 80px;
+    padding: 0 80px 80px 80px;
 }
 
 .search__block {
@@ -171,7 +172,26 @@ main {
     width: 80%;
 }
 
+.catalog {
+    margin-top: 56px;
+}
 
+.catalog__header {
+    color: rgb(29, 29, 29);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.catalog__cards {
+    margin-top: 16px;
+}
+
+.card {
+    width: 308px;
+    height: 366px;
+    border: 1px solid black;
+}
 
 footer {
     height: 72px;
