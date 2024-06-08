@@ -37,22 +37,20 @@ function showRestaurants(restaurants) {
 function createRestorantCardElement(restaurant) {
     return (
         `<div class="card">
-            <img src="./assets/photo-3.png" alt="restorant image">
+            <img src="${restaurant.photo}" alt="restorant image">
             <div class="card__content">
                 <div class="card__content__title">
-                    <span class="card__content__name">Макдоналдс</span>
-                    <span>-</span>
-                    <span class="card__content__address">Газетный</span>
+                    <span class="card__content__name">${restaurant.name}</span>
                 </div>
                 <div class="card__content__subtitle">
                     <span class="card__content__price">₽₽</span>
                     <span>•</span>
-                    <span class="card__content__food_type">Бургеры</span>
+                    <span class="card__content__food_type">${restaurant.fooTypes[0]}</span>
                 </div>
                 <div class="card__content__delivery_time">
-                    <span>25</span>
+                    <span>${restaurant.maxTime}</span>
                     <span>-</span>
-                    <span>35</span>
+                    <span>${restaurant.minTime}</span>
                     <span> Min</span>
                 </div>
             </div>
