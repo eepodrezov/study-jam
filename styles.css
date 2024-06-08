@@ -176,9 +176,24 @@ main {
 
 .arrow {
     stroke: black;
+    rotate: 180deg;
 }
 
-.search__block > input {
+.hidden .search__block__inputs {
+    display: none;
+}
+
+.search__block.hidden {
+    height: 0px;
+    justify-content: flex-end;
+}
+
+.hidden .arrow {
+    position: absolute;
+    rotate: 0deg;
+}
+
+.search__block__inputs > input {
     width: 80%;
 }
 
